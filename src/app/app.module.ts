@@ -9,22 +9,22 @@ import { RecipesDetailComponent } from './components/recipes/recipes-detail/reci
 import { RecipesItemComponent } from './components/recipes/recipes-list/recipes-item/recipes-item.component';
 import { ShoppingListComponent } from './components/shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './components/shopping-list/shopping-edit/shopping-edit.component';
+import { DropdownDirective } from './directive/dropdown.directive';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    RecipesComponent,
-    RecipesListComponent,
-    RecipesDetailComponent,
-    RecipesItemComponent,
-    ShoppingListComponent,
-    ShoppingEditComponent,
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		HeaderComponent,
+		RecipesComponent,
+		RecipesListComponent,
+		RecipesDetailComponent,
+		RecipesItemComponent,
+		ShoppingListComponent,
+		ShoppingEditComponent,
+		DropdownDirective,
+	],
+	imports: [BrowserModule],
+	providers: [],
+	bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
